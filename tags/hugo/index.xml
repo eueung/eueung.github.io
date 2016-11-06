@@ -10,6 +10,69 @@
     <atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Testing Theme Components</title>
+      <link>https://eueung.github.io/post/testing-theme-components/</link>
+      <pubDate>Sun, 06 Nov 2016 13:32:06 +0700</pubDate>
+      
+      <guid>https://eueung.github.io/post/testing-theme-components/</guid>
+      <description>
+
+&lt;p&gt;The &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/&#34;&gt;Academic Theme&lt;/a&gt; by &lt;a href=&#34;https://georgecushen.com/&#34;&gt;George Cushen&lt;/a&gt; seems pretty cool. Let&amp;rsquo;s see what we can do with this theme.&lt;/p&gt;
+
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+
+&lt;p&gt;$$
+L&amp;rsquo; = {L}{\sqrt{1-\frac{v^2}{c^2}}}
+$$&lt;/p&gt;
+
+&lt;h2 id=&#34;speakerdeck&#34;&gt;Speakerdeck&lt;/h2&gt;
+
+&lt;script async class=&#39;speakerdeck-embed&#39; data-id=&#39;4689dcc7b2ae4c5591572c88747cd232&#39; data-ratio=&#39;1.33333333333333&#39; src=&#39;//speakerdeck.com/assets/embed.js&#39;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;gist&#34;&gt;Gist&lt;/h2&gt;
+
+&lt;script src=&#34;//gist.github.com/eueung/7bee76a21653d6ba7bd02f0e694cf269.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;youtube&#34;&gt;Youtube&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/iCVd9ZDPjXU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h2 id=&#34;bootstrap-style-alert&#34;&gt;[Bootstrap Style] Alert&lt;/h2&gt;
+
+&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;p&gt;$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;source&#34;&gt;Source&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;
+$$
+L&#39; = {L}{\sqrt{1-\frac{v^2}{c^2}}}
+$$
+
+{{&amp;lt; speakerdeck 4689dcc7b2ae4c5591572c88747cd232 &amp;gt;}}
+
+{{&amp;lt; gist eueung 7bee76a21653d6ba7bd02f0e694cf269 &amp;gt;}}
+
+{{&amp;lt; youtube iCVd9ZDPjXU &amp;gt;}}
+
+{{% alert warning %}}
+$$\left [ – \frac{\hbar^2}{2 m} \frac{\partial^2}{\partial x^2} + V \right ] \Psi = i \hbar \frac{\partial}{\partial t} \Psi$$
+{{% /alert %}}
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Migrate to Hugo - Goodbye Jekyll</title>
       <link>https://eueung.github.io/post/getting-started/</link>
       <pubDate>Sat, 05 Nov 2016 12:00:00 +0000</pubDate>
