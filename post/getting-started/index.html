@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.17" />
+  <meta name="author" content="Eueung Mulyana">
+  <meta name="description" content="Lecturer. ICT System Design &amp; Development Advocate. Technology Enthusiast.">
+
+  <link rel="stylesheet" href="/css/highlight.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+  <link rel="stylesheet" href="/css/custom.css">
+  
+
+  <link rel="alternate" href="https://eueung.github.io/index.xml" type="application/rss+xml" title="EM Webpage">
+  <link rel="feed" href="https://eueung.github.io/index.xml" type="application/rss+xml" title="EM Webpage">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://eueung.github.io/post/getting-started/">
+
+  
+
+  <title>Migrate to Hugo - Goodbye Jekyll | EM Webpage</title>
+
+</head>
+<body id="top">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">EM Webpage</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-item"><a href="/#top">Home</a></li>
+        
+        <li class="nav-item"><a href="/#posts">Posts</a></li>
+        
+        <li class="nav-item"><a href="/#teaching">Teaching</a></li>
+        
+        <li class="nav-item"><a href="/#contact">Contact</a></li>
+        
+        <li class="nav-item"><a href="https://speakerdeck.com/eueung">Slides</a></li>
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+    
+
+    <h1 itemprop="name">Migrate to Hugo - Goodbye Jekyll</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2016-11-05 12:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Sat, Nov 5, 2016
+    </time>
+  </span>
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a class="article-tag-link" href="https://eueung.github.iotags/web">web</a
+    >, 
+    
+    <a class="article-tag-link" href="https://eueung.github.iotags/hugo">hugo</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2feueung.github.io%2fpost%2fgetting-started%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Migrate%20to%20Hugo%20-%20Goodbye%20Jekyll&amp;url=https%3a%2f%2feueung.github.io%2fpost%2fgetting-started%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2feueung.github.io%2fpost%2fgetting-started%2f&amp;title=Migrate%20to%20Hugo%20-%20Goodbye%20Jekyll"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2feueung.github.io%2fpost%2fgetting-started%2f&amp;title=Migrate%20to%20Hugo%20-%20Goodbye%20Jekyll"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Migrate%20to%20Hugo%20-%20Goodbye%20Jekyll&amp;body=https%3a%2f%2feueung.github.io%2fpost%2fgetting-started%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>Github pages render Jekyll source natively. That&rsquo;s nice and that was the reason I use it for this page - until now. I have some plans and just want to do a facelift/upgrade to my pages. So here it is: the new appearance using <a href="https://gohugo.io/">Hugo</a> static page generator. Yes, sure.. github can&rsquo;t render the source natively, I have to push the rendering output manually (or let a bot handle that).</p>
+
+<p>My old page will be moved to a new repo <a href="https://eueung.github.io/ghplegacy">ghplegacy</a>.</p>
+
+<p><img src="/img/posts/ghp-mm.jpg" alt="" /></p>
+
+    </div>
+
+  </article>
+
+  <nav>
+  <ul class="pager">
+    
+
+    
+  </ul>
+</nav>
+
+  
+
+
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Eueung Mulyana &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+  </body>
+</html>
+

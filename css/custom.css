@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|PT+Serif');
+
+html {
+  font-family: 'PT Serif', serif;
+}
+.navbar-default, h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.section-heading h1 {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    border-left: solid .5em #ddd;
+    padding-left: .25em;
+}
+.home-section:first-of-type {
+    padding-top: 30px;
+}

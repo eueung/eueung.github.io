@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EM Webpage</title>
+    <link>https://eueung.github.io/tags/web/index.xml</link>
+    <description>Recent content on EM Webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Eueung Mulyana</copyright>
+    <atom:link href="/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Migrate to Hugo - Goodbye Jekyll</title>
+      <link>https://eueung.github.io/post/getting-started/</link>
+      <pubDate>Sat, 05 Nov 2016 12:00:00 +0000</pubDate>
+      
+      <guid>https://eueung.github.io/post/getting-started/</guid>
+      <description>&lt;p&gt;Github pages render Jekyll source natively. That&amp;rsquo;s nice and that was the reason I use it for this page - until now. I have some plans and just want to do a facelift/upgrade to my pages. So here it is: the new appearance using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; static page generator. Yes, sure.. github can&amp;rsquo;t render the source natively, I have to push the rendering output manually (or let a bot handle that).&lt;/p&gt;
+
+&lt;p&gt;My old page will be moved to a new repo &lt;a href=&#34;https://eueung.github.io/ghplegacy&#34;&gt;ghplegacy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://eueung.github.io/img/posts/ghp-mm.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
